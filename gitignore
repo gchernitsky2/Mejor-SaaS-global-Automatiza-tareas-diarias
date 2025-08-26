@@ -1,0 +1,13 @@
+# Archivos sensibles
+config.php
+.env
+
+# Sistema
+*.log
+*.tmp
+*.bak
+.DS_Store
+node_modules/
+vendor/
+.idea/
+.vscode/
