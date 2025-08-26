@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskLoop - Dashboard de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bienvenido a TaskLoop</h1>
+    <div id="formulario">
+        <label>Tarea:</label><input type="text" id="tarea"><br>
+        <label>Responsable:</label><input type="text" id="responsable"><br>
+        <label>Fecha límite:</label><input type="date" id="fecha"><br>
+        <button onclick="registrarTarea()">Registrar</button>
+    </div>
+    <hr>
+    <h2>Tareas Registradas</h2>
+    <div id="tareas"></div>
+    <script src="script.js"></script>
+</body>
+</html>

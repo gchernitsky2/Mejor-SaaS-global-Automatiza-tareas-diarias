@@ -1,0 +1,17 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+    padding: 20px;
+}
+input, button {
+    margin: 5px;
+    padding: 8px;
+}
+#formulario {
+    border: 2px solid #c4a484;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fffaf4;
+}
